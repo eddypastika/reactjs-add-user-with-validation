@@ -13,10 +13,11 @@ function App() {
     };
 
     return (
-        <div>
+        // avoid div soup with React Fragments (<React.Fragment> or <> or custom <Wrapper>)
+        <>
             <AddUser onAddUser={addUserHandler}/>
             <UserList users={users}/>
-        </div>
+        </>
     );
 }
 

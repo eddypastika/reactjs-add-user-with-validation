@@ -23,7 +23,6 @@ const ErrorModal = props => {
                     <Button onClick={clearErrorHandler}>Close</Button>
                 </footer>
             </Card>
-
         </div>
     );
 };
